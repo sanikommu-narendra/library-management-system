@@ -12,4 +12,4 @@ Import and run the "db.sql" file in the mysql database
 
 To run the project:
 	1.Open the terminal in the project folder
-	2run the command   "python Library-Management-System.py"
+	2.run the command   "python Library-Management-System.py"
