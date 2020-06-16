@@ -1,0 +1,3 @@
+create database lib;
+create table if not exists accounts(name varchar(500),dob varchar(500),rollno BIGINT, branch varchar(500), sem varchar(500), phoneno BIGINT, address varchar(500), username varchar(500), password varchar(500), date varchar(500),ibn1 varchar(500),ibi1 BIGINT,ibid1 varchar(500),ibrd1 varchar(500),ibn2 varchar(500),ibi2 BIGINT,ibid2 varchar(500),ibrd2 varchar(500),ibn3 varchar(500),ibi3 BIGINT,ibid3 varchar(500),ibrd3 varchar(500),ibn4 varchar(500),ibi4 BIGINT,ibid4 varchar(500),ibrd4 varchar(500),photopath varchar(500));
+create table if not exists books(bookname varchar(1000),bookno BIGINT,authorname varchar(1000), category varchar(1000), edition varchar(1000),publisher varchar(1000), quantity BIGINT, price BIGINT,instock BIGINT);
